@@ -47,7 +47,7 @@ class fileTool:
         İşlem Seçiniz:
         """
 
-        fonkListesi=["",self.ekleme,self.gunceleme,self.silme,self.listeleme]
+        fonkListesi=["",self.ekleme,self.guncelleme,self.silme,self.listeleme]
 
         anahtar = 1
         while anahtar == 1:
