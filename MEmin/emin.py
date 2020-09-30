@@ -1,0 +1,1 @@
+print("Artık github'tayız")
