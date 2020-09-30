@@ -1,0 +1,1 @@
+print("Acıl sag bek alınsın!")
