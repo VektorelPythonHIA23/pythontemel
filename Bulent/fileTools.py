@@ -24,4 +24,4 @@ class fileTool:
         liste = []
         for item in self.alanlar:
             liste.append(input(f"{item}"))
-        return ";".join(liste) + "\n" 
+        return ";".join(liste) + "\n"
