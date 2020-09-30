@@ -33,7 +33,7 @@ class fileTool:
         listeleme()
         del self.kayitlar[int(input("Silmek istediğiniz kaydı seçiniz"))-1]
 
-    def guncelle(self):
+    def guncelleme(self):
         listeleme()
         self.kayitlar[int(input("Güncelleme istediğiniz kaydı seçiniz"))-1] = self.girisYap()
 
@@ -47,7 +47,7 @@ class fileTool:
         İşlem Seçiniz:
         """
 
-        fon
+        fonkListesi=["",self.ekleme,self.gunceleme,self.silme,self.listeleme]
 
         anahtar = 1
         while anahtar == 1:
