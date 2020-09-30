@@ -13,7 +13,7 @@ class FileTool:
             return open(self.adres,"w+")
     
 
-    def listeleme(self):
+    def listeleme(self): #TODO İ DÜZELTİLECEK
         i = 1
         for item in self.kayitlar:
             print(f"{i} -",*item.split[";"],end="")
