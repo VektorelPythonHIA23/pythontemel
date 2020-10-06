@@ -1,1 +1,1 @@
-print('merhaba suat')
+print('merhaba suat') # TODO merhaba yazılacak
