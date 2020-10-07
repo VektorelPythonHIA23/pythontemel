@@ -3,13 +3,8 @@ db = sql.connect("Ibrahim\chinook.db")
 cur = db.cursor()
 cur.execute("""
 SELECT *
-  FROM ALBUMS
- WHERE artistId IN (
-           SELECT artistId
-             FROM artists
-            WHERE Name LIKE 'A__o%'
-       )
-AND 
-       artistID > 200;
+  FROM albums AS alb
+       INNER JOIN
+       artists AS art ON alb.title = art.Name;
 """)
 print(cur.fetchall())
