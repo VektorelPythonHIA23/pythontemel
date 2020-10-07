@@ -1,0 +1,10 @@
+SELECT *
+  FROM media_types;
+
+SELECT count(tra.name),
+       tra.MediaTypeId, med.Name
+  FROM tracks AS tra
+  left join media_types as med on med.MediaTypeId = tra.MediaTypeId
+ GROUP BY tra.MediaTypeId;
+
+
