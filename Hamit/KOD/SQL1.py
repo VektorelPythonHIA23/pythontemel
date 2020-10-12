@@ -1,15 +1,16 @@
 import sqlite3 as sql
-db = sql.connect("Hamit/chinook.db")
+db = sql.connect("Hamit/KOD/chinook.db")
 cur = db.cursor()
 cur.execute("""
 SELECT *
-  FROM ALBUMS
+  FROM albums
  WHERE artistId IN (
            SELECT artistId
              FROM artists
             WHERE Name LIKE 'A__o%'
        )
 AND 
-       artistID > 200;
+       artistId > 200;
+
 """)
 print(cur.fetchall())
