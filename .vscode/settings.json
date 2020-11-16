@@ -1,4 +1,4 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\web\\python.exe"
+    "python.pythonPath": "/Users/doganocal/opt/anaconda3/envs/web/bin/python"
 }
